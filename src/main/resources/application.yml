@@ -1,0 +1,14 @@
+server:
+  port: 9001
+cxf:
+  path: /services
+  servlet.init:
+    service-list-path: /info
+  jaxrs:
+    component-scan: true
+spring:
+  datasource:
+    password: 123456
+    username: root
+    url: jdbc:mysql://localhost:3306/student
+    driver-class-name: com.mysql.jdbc.Driver

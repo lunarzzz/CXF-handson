@@ -11,9 +11,9 @@ import javax.ws.rs.core.MediaType;
 @Service
 public interface StudentService {
 
-    @GET
+    @POST
     @Path("/getStudent")
     @Produces(MediaType.APPLICATION_JSON)
-    @Consumes(MediaType.APPLICATION_JSON)
+//    @Consumes(MediaType.APPLICATION_JSON)
     Student getStudent(Student a);
 }
