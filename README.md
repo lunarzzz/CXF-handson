@@ -1,6 +1,8 @@
 # User Guide
-* step 1 : database prepare
-import the student.sql to your mysql database.
+* step 1 : database prepare. 
+
+import the student.sql to your mysql database.  
+
 change the PASSWORD and NAME of MySQL in application.yml.
 * step 2 : run server
 
